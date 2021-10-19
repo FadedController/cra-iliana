@@ -1,25 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import ContentSection from "./components/layout/ContentSection";
+import ForYou from "./components/sections/ForYou";
+import HeroSection from "./components/sections/Hero";
+import IntroVideo from "./components/sections/IntroVideo";
+import WhyUs from "./components/sections/WhyUs";
+import { LanguageContext } from "./index";
 
 function App() {
+  const [language, setLanguage] = useState<"en" | "es">("es");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <LanguageContext.Provider value={[language, setLanguage]}>
+      <div className="app">
+        <HeroSection></HeroSection>
+        <IntroVideo></IntroVideo>
+        <ContentSection>
+          <ForYou></ForYou>
+          <WhyUs></WhyUs>
+        </ContentSection>
+      </div>
+    </LanguageContext.Provider>
   );
 }
 

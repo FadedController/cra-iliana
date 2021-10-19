@@ -1,13 +1,71 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Heading1.tsx */
+.heading-1-wrapper {
+  @apply text-5xl lg:text-8xl font-bold flex flex-col;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.heading-1 {
+  @apply text-transparent bg-clip-text bg-gradient-to-tr pb-2 lg:pb-4 from-[#e0c571] via-[#aa8939] to-[#e0c571];
+}
+
+.heading-1-text {
+  @apply text-black text-4xl lg:text-7xl font-light;
+}
+
+/* Heading2.tsx */
+.heading-2 {
+  @apply text-4xl font-semibold text-transparent bg-clip-text bg-gradient-to-tr from-[#e0c571] via-[#aa8939] to-[#e0c571];
+}
+
+/* Heading3.tsx */
+.heading-3 {
+  @apply font-semibold lg:text-3xl text-2xl text-transparent bg-clip-text bg-gradient-to-tl from-[#e0c571] to-[#aa8939];
+}
+
+/* Paragraph.tsx */
+.paragraph {
+  @apply text-xl font-light;
+}
+
+/* ListElement */
+
+.gold-text-gradient {
+  @apply text-transparent bg-clip-text bg-gradient-to-tr pb-2 lg:pb-4 from-[#e0c571] via-[#aa8939] to-[#e0c571];
+}
+
+/* Hero.tsx */
+.hero {
+  background-image: url(./assets/img/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.hero-pic {
+  background-image: url(./assets/img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  height: 35rem;
+  @apply md:flex-2;
+}
+
+.hero-markdown {
+  @apply md:flex-3 bg-[#ffffffaa] rounded-sm p-8;
+}
+
+.hero-markdown div {
+  @apply flex flex-col space-y-3;
+}
+
+/* ForYou.tsx */
+.for-you > div,
+.why-us > div {
+  @apply flex flex-col space-y-2;
+}
+
+.for-you ul,
+.why-us ul {
+  @apply flex flex-col space-y-2;
 }
