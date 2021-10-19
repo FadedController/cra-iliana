@@ -1,0 +1,1 @@
+You will partner with a person of the group with a rotation once a month to keep each other accountable and to exchange guided and specific clarification processes tailored based on your personal and/or professional goals.

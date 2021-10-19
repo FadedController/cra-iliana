@@ -1,0 +1,1 @@
+In an individual sharing of your 5 F's (Finance, Family, Faith, Fitness, Fun) + live coaching, including an Accelerated Evolution process of group/answers to questions + learning of basic protocols in Accelerated Evolution and Quantum Physics.

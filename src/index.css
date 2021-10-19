@@ -69,3 +69,17 @@
 .why-us ul {
   @apply flex flex-col space-y-2;
 }
+
+/* Quote.tsx */
+.quote-bg {
+  @apply bg-gradient-to-t rounded-xl from-[#e0c571] via-[#967832] to-[#e0c571] text-white hidden lg:flex h-full w-full px-8 pb-8 flex-col justify-center items-center space-y-2;
+}
+
+.quote blockquote > p {
+  @apply font-bold text-center text-4xl;
+}
+
+/* Manifest.tsx */
+.manifest > section > div > div {
+  @apply flex flex-col space-y-2;
+}

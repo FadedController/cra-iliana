@@ -1,0 +1,3 @@
+#### Manifestación Cuántica Mastermind
+
+9 semanas consecutivas recibirás en sesiones zoom de 90 minutos, a diferencia de otros cursos o facilitadores, el por qué y cómo funcionan los principios y fundamentos de la Creación de Realidad, de tal forma que al entenderlo con suficiente claridad, las técnicas y herramientas de este sistema establecido infalible, cuando lo interiorices, vivirás el proceso de posicionarte en otra realidad en la vibración apropiada que mostrará firmemente la versión de persona correspondiente a la nueva realidad que has elegido
