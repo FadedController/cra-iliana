@@ -15,7 +15,7 @@ const Manifest: React.FC<ManifestProps> = () => {
 
   return (
     <div className="manifest">
-      <ContentSection className="md:space-x-2 flex-col md:flex-row py-4 px-6 lg:px-4">
+      <ContentSection className="md:space-x-2 flex-col md:flex-row p-4">
         {!loading && (
           <Markdown
             options={{

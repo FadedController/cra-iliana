@@ -6,4 +6,4 @@ Convierte a la Emprendedora en una Maestra de su Realidad, potencializa tanto su
 
 Es un concepto de base cuántica, extremadamente claro, completo y poderoso para Influenciar tu Realidad conscientemente
 
-[Agenda una Consulta Gratuita](/contact)
+[Agenda una Consulta Gratuita](https://calendly.com/adpadillar/test-event?month=2021-10)

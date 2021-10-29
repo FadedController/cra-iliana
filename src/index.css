@@ -16,6 +16,10 @@
   @apply text-4xl font-semibold text-transparent bg-clip-text bg-gradient-to-tr from-[#e0c571] via-[#aa8939] to-[#e0c571];
 }
 
+.heading-2-blue {
+  @apply text-4xl font-semibold text-transparent bg-clip-text bg-gradient-to-b from-[#6ed4cd] to-[#256c7d];
+}
+
 /* Heading3.tsx */
 .heading-3 {
   @apply font-semibold lg:text-3xl text-2xl text-transparent bg-clip-text bg-gradient-to-tl from-[#e0c571] to-[#aa8939];
@@ -30,6 +34,10 @@
 
 .gold-text-gradient {
   @apply text-transparent bg-clip-text bg-gradient-to-tr pb-2 lg:pb-4 from-[#e0c571] via-[#aa8939] to-[#e0c571];
+}
+
+.blue-text-gradient {
+  @apply text-transparent bg-clip-text pb-2 lg:pb-4 bg-gradient-to-b from-[#6ed4cd] to-[#256c7d];
 }
 
 /* Hero.tsx */
@@ -47,7 +55,8 @@
   background-position: center;
   border-radius: 0.25rem;
   overflow: hidden;
-  height: 35rem;
+  min-height: 35rem;
+  height: 100%;
   @apply md:flex-2;
 }
 
@@ -82,4 +91,46 @@
 /* Manifest.tsx */
 .manifest > section > div > div {
   @apply flex flex-col space-y-2;
+}
+
+/* Card.tsx */
+.card-inside {
+  @apply bg-gradient-to-tr from-[#6ed4cd] via-[#256c7d] to-[#6ed4cd] px-4 py-6 flex flex-col items-center justify-center;
+}
+
+.overlay-1 {
+  background-image: url(./assets/img/overlay-1.jpeg);
+  background-size: cover;
+}
+
+.overlay-2 {
+  background-image: url(./assets/img/overlay-2.jpeg);
+  background-size: cover;
+}
+
+/* Mastermind.tsx */
+.videoconference {
+  background-image: url(./assets/img/videoconference.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+/* Value.tsx */
+.for-you-img {
+  background-image: url(./assets/img/for-you.png);
+  background-size: cover;
+  background-position: top;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+/* Discovery.tsx */
+.videoconference-2 {
+  background-image: url(./assets/img/videoconference.png);
+  background-size: cover;
+  background-position: top;
+  border-radius: 0.5rem;
+  overflow: hidden;
 }

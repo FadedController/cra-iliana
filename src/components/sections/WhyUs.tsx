@@ -21,10 +21,13 @@ const WhyUs: React.FC<WhyUsProps> = () => {
             overrides: {
               h2: {
                 component: Heading2,
-                props: { className: "ml-8" },
+                props: { className: "ml-8", blue: true },
               },
               li: {
                 component: ListElement,
+                props: {
+                  blue: true,
+                },
               },
               strong: {
                 component: Bold,

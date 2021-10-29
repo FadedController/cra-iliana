@@ -1,9 +1,11 @@
 import React from "react";
 
-interface ParagraphProps {}
+interface ParagraphProps {
+  className?: string;
+}
 
-const Paragraph: React.FC<ParagraphProps> = ({ children }) => {
-  return <p className="paragraph">{children}</p>;
+const Paragraph: React.FC<ParagraphProps> = ({ children, className }) => {
+  return <p className={"paragraph " + className}>{children}</p>;
 };
 
 export default Paragraph;

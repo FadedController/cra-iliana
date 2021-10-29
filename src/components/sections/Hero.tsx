@@ -26,7 +26,19 @@ const HeroSection: React.FC<HeroSectionProps> = () => {
                   a: {
                     component: Cta,
                     props: {
-                      link: "/contact",
+                      onClick: () => {
+                        if (language === "en") {
+                          //@ts-ignore
+                          Calendly.showPopupWidget(
+                            "https://calendly.com/adpadillar/test-event"
+                          );
+                        } else {
+                          //@ts-ignore
+                          Calendly.showPopupWidget(
+                            "https://calendly.com/adpadillar/evento-prueba"
+                          );
+                        }
+                      },
                     },
                   },
                   h1: {

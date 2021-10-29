@@ -5,8 +5,8 @@ interface StagesProps {}
 
 const Stages: React.FC<StagesProps> = ({ children }) => {
   return (
-    <ContentSection className="md:space-x-2 flex-col md:flex-row px-6 lg:px-4">
-      <div className="grid grid-cols-2 gap-2">{children}</div>
+    <ContentSection className="md:space-x-2 flex-col md:flex-row px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2">{children}</div>
     </ContentSection>
   );
 };
