@@ -5,8 +5,7 @@
 - Learn about the program and ask questions
 - Get to know who we are and see if we are a fit for each other
 
-**We are looking forward to being with you online soon.**
-**Freeing people up and actively loving**
+**We are looking forward to being with you online soon. Freeing people up and actively loving**
 
 ### Marie and Iliana
 

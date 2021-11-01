@@ -1,6 +1,7 @@
 import Markdown from "markdown-to-jsx";
 import React, { useContext } from "react";
 import { LanguageContext } from "../..";
+import { openCalendlyPopup } from "../hooks/openCalendlyPopup";
 import { useData } from "../hooks/useData";
 import Bold from "../layout/Bold";
 import ContentSection from "../layout/ContentSection";
@@ -34,6 +35,9 @@ const Discovery: React.FC<DiscoveryProps> = () => {
               overrides: {
                 h2: {
                   component: Heading2,
+                  props: {
+                    className: "ml-7",
+                  },
                 },
                 li: {
                   component: ListElement,
@@ -43,13 +47,16 @@ const Discovery: React.FC<DiscoveryProps> = () => {
                 },
                 strong: {
                   component: Bold,
+                  props: {
+                    className: "pl-7",
+                  },
                 },
                 h3: {
                   component: ({ children }) => {
                     if (language === "en")
-                      return <Heading3>{children}</Heading3>;
+                      return <Heading3 className="ml-7">{children}</Heading3>;
                     return (
-                      <div>
+                      <div className="ml-7">
                         <Logo />
                       </div>
                     );
@@ -58,20 +65,8 @@ const Discovery: React.FC<DiscoveryProps> = () => {
                 a: {
                   component: Cta,
                   props: {
-                    onClick: () => {
-                      if (language === "en") {
-                        //@ts-ignore
-                        Calendly.showPopupWidget(
-                          "https://calendly.com/adpadillar/test-event"
-                        );
-                      } else {
-                        //@ts-ignore
-                        Calendly.showPopupWidget(
-                          "https://calendly.com/adpadillar/evento-prueba"
-                        );
-                      }
-                    },
-                    className: "mt-3",
+                    onClick: () => openCalendlyPopup(language),
+                    className: "mt-3 ml-7",
                   },
                 },
               },

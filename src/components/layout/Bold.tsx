@@ -1,9 +1,11 @@
 import React from "react";
 
-interface BoldProps {}
+interface BoldProps {
+  className?: string;
+}
 
-const Bold: React.FC<BoldProps> = ({ children }) => {
-  return <strong className="font-semibold">{children}</strong>;
+const Bold: React.FC<BoldProps> = ({ children, className }) => {
+  return <strong className={`font-semibold ${className}`}>{children}</strong>;
 };
 
 export default Bold;

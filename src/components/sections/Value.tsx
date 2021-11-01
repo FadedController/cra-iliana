@@ -1,6 +1,7 @@
 import Markdown from "markdown-to-jsx";
 import React, { useContext } from "react";
 import { LanguageContext } from "../..";
+import { openCalendlyPopup } from "../hooks/openCalendlyPopup";
 import { useData } from "../hooks/useData";
 import Bold from "../layout/Bold";
 import ContentSection from "../layout/ContentSection";
@@ -54,19 +55,7 @@ const Value: React.FC<ValueProps> = () => {
                 a: {
                   component: Cta,
                   props: {
-                    onClick: () => {
-                      if (language === "en") {
-                        //@ts-ignore
-                        Calendly.showPopupWidget(
-                          "https://calendly.com/adpadillar/test-event"
-                        );
-                      } else {
-                        //@ts-ignore
-                        Calendly.showPopupWidget(
-                          "https://calendly.com/adpadillar/evento-prueba"
-                        );
-                      }
-                    },
+                    onClick: () => openCalendlyPopup(language),
                     className: "ml-7",
                   },
                 },

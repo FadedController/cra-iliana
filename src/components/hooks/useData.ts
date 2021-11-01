@@ -11,6 +11,7 @@ export const useData = (filename: string): [string, boolean] => {
       setLoading(false);
       setMarkdown(data);
     } catch {
+      // console.error(e);
       setLoading(false);
       setMarkdown("");
     }
