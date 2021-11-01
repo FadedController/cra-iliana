@@ -134,3 +134,25 @@
   border-radius: 0.5rem;
   overflow: hidden;
 }
+
+/* VideoCarousel.tsx */
+.video {
+  --width: 95vw;
+  width: var(--width);
+  height: calc(var(--width) * 0.564);
+}
+
+@media (min-width: 640px) {
+  .video {
+    --width: 560px;
+  }
+}
+
+/* Iliana.tsx */
+.iliana-img {
+  background-image: url(./assets/img/iliana.jpeg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 
 interface CtaProps {
-  link: string;
+  link?: string;
   target?: string;
   onClick?: () => void;
   className?: string;

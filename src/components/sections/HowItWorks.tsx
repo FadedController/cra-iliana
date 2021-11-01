@@ -15,7 +15,7 @@ const HowItWorks: React.FC<HowItWorksProps> = () => {
 
   return (
     <div>
-      <ContentSection className="md:space-x-6 md:space-y-0 flex-col-reverse md:flex-row px-4 lg:px-4">
+      <ContentSection className="md:space-x-6 md:space-y-0 space-y-4 flex-col md:flex-row px-4 lg:px-4">
         {!loading && (
           <Markdown
             options={{
@@ -42,7 +42,7 @@ const HowItWorks: React.FC<HowItWorksProps> = () => {
             {markdown}
           </Markdown>
         )}
-        <div className="flex-1">
+        <div className="flex-1 flex items-center justify-center">
           <VideoCarousel></VideoCarousel>
         </div>
       </ContentSection>

@@ -16,7 +16,7 @@ const VideoCarousel: React.FC<VideoCarouselProps> = () => {
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
-      className="rounded-xl"
+      className="rounded-xl video"
     ></iframe>
   ));
 
@@ -42,7 +42,7 @@ const VideoCarousel: React.FC<VideoCarouselProps> = () => {
 
   return (
     <div>
-      <ContentSection className="flex-col items-center justify-center">
+      <ContentSection className="flex-col items-center justify-center h-full space-y-6">
         {!loading && (
           <Markdown
             options={{
@@ -63,7 +63,7 @@ const VideoCarousel: React.FC<VideoCarouselProps> = () => {
             {markdown}
           </Markdown>
         )}
-        <div className="flex flex-col items-center justify-start space-y-4 z-0">
+        <div className="flex flex-col items-center justify-start space-y-4 z-0 flex-1">
           <div className="flex flex-col items-center justify-center space-x-4 space-y-4 z-50">
             <div className="bg-gray-50 flex items-center justify-center rounded-xl relative">
               <div className="loading absolute top-24 sm:top-32"></div>

@@ -2,9 +2,11 @@ import { useEffect, useState } from "react";
 import { initCalendlyPopup } from "./components/hooks/initCalendlyPopup";
 import ContentSection from "./components/layout/ContentSection";
 import Discovery from "./components/sections/Discovery";
+import Footer from "./components/sections/Footer";
 import ForYou from "./components/sections/ForYou";
 import HeroSection from "./components/sections/Hero";
 import HowItWorks from "./components/sections/HowItWorks";
+import Iliana from "./components/sections/Iliana";
 import IntroVideo from "./components/sections/IntroVideo";
 import Manifest from "./components/sections/Manifest";
 import Mastermind from "./components/sections/Mastermind";
@@ -50,7 +52,9 @@ function App() {
           <Discovery></Discovery>
           <Steps></Steps>
           <HowItWorks></HowItWorks>
+          <Iliana></Iliana>
         </ContentSection>
+        <Footer></Footer>
       </div>
     </LanguageContext.Provider>
   );
