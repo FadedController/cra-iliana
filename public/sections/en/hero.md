@@ -1,3 +1,7 @@
+---
+title: "Hero section"
+---
+
 # Master the art of Manifesting
 
 ### This is not the Law of Attraction LOA or personal development entertainment, it is an extremely clear, comprehensive, and powerful concept to conscious Reality Creation
