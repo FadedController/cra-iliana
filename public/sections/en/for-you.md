@@ -1,3 +1,7 @@
+---
+title: "For you Section"
+---
+
 ## This program works for you if these resonates ...
 
 - You have tried different holistic methods, courses, success books, law of attraction, self-development, meditation, visualization or affirmations and you DO NOT have enough results or they only work temporarily

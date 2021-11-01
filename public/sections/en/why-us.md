@@ -1,3 +1,7 @@
+---
+title: "Why us section"
+---
+
 ## Why is this system different?
 
 - This is science based, its evident and proved, you will understand clearly how reality works and how we can manipulate, influence consciously, unconsciously, create awesome results or distorted ones too, it is our full responsibility

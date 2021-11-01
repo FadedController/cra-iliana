@@ -9,4 +9,4 @@
 - A one-on-one FREE Discovery Call of 45 min is mandatory to qualify for this program
 - **NOTE: This program is NOT for EVERYONE. Commitment is everything to us as we found that people who are committed take action in their lives, are more fun to work with, and are quick reality creators.**
 
-[Book a free consultation](https://calendly.com/adpadillar/test-event?month=2021-10)
+[Book a free consultation]()

@@ -19,7 +19,7 @@ import Card from "./components/ui/Card";
 import { LanguageContext } from "./index";
 
 function App() {
-  const [language, setLanguage] = useState<"en" | "es">("es");
+  const [language, setLanguage] = useState<"en" | "es">("en");
 
   useEffect(() => {
     initCalendlyPopup(language);

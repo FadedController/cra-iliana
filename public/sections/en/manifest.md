@@ -1,3 +1,7 @@
+---
+title: "Manifest Section"
+---
+
 ## Learn the art of Reality Creation
 
 **We Influence our Reality Consciously and want you to experience it too!**

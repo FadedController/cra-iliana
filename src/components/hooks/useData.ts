@@ -8,8 +8,10 @@ export const useData = (filename: string): [string, boolean] => {
   const fileFetch = async () => {
     try {
       const { data } = await axios.get(`sections/${filename}`);
+      //
       setLoading(false);
-      setMarkdown(data);
+      // @ts-ignore
+      setMarkdown(data.replace(/---([^;]*)---/g, ""));
     } catch {
       // console.error(e);
       setLoading(false);

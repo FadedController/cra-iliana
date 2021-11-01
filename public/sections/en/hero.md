@@ -10,4 +10,4 @@ Sets the Entrepreneur woman into a Master of her Reality, enhances both her prof
 
 It is an extremely clear, complete and powerful quantum-based concept to Influence your Reality
 
-[Book a free consultation](https://calendly.com/adpadillar/test-event?month=2021-10)
+[Book a free consultation]()

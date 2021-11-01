@@ -1,3 +1,7 @@
+---
+title: "Discovery Section"
+---
+
 ## What will you get from our Discovery Call together?
 
 - Assessment of your life directions and what gets in the way of your goals

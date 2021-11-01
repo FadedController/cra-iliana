@@ -1,3 +1,7 @@
+---
+title: "How it works section"
+---
+
 ## We make it Work for YOU!
 
 The techniques or methods by themselves are useless.

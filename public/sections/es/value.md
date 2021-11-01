@@ -8,4 +8,4 @@
 - Total de 12 meses formados por inmersión de 3 semanas de estudio e instrucciones con documentos digitales, 9 semanas de sesiones 90 min en zoom y posterior seguimiento de 9 meses bimestral en zoom para aclaración de dudas, correcciones, compartir y retroalimentación con Coach Iliana
 - **NOTA: Este programa no es para todos. Reserva una consulta gratuita, te daré soluciones, acciones y veremos si aplica para ti.**
 
-[Agenda una Consulta Gratuita](https://calendly.com/adpadillar/test-event?month=2021-10)
+[Agenda una Consulta Gratuita]()
