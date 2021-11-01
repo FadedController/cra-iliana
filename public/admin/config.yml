@@ -4,9 +4,9 @@ backend:
 media_folder: "public/sections"
 public_folder: "/sections"
 collections:
-  - name: "Test"
+  - name: "Test En"
     label: "test"
-    folder: "public/sections"
+    folder: "public/sections/en"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
