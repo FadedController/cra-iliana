@@ -186,4 +186,4 @@ collections:
         file: "src/data/youtube.json"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "map" }
+          - { label: "Body", name: "body", widget: "code" }
