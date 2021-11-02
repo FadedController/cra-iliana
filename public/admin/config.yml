@@ -2,21 +2,17 @@ backend:
   name: git-gateway
   branch: master
 media_folder: "public/sections"
-public_folder: "/sections"
+public_folder: "/src/assets/img"
 collections:
   - name: "en"
     label: "English Sections"
     folder: "public/sections/en"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "es"
     label: "Secciones Español"
     folder: "public/sections/es"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
