@@ -1,8 +1,7 @@
 backend:
   name: git-gateway
   branch: master
-media_folder: "public/sections"
-public_folder: "src/assets/img"
+media_folder: "src/assets/img/"
 collections:
   - label: "English Sections"
     name: "en"
