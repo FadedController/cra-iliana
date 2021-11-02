@@ -1,5 +1,5 @@
 ---
-title: "Discovery Section"
+title: Discovery Moment
 ---
 
 ## What will you get from our Discovery Call together?
