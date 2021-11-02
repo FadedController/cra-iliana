@@ -17,49 +17,41 @@ collections:
         name: "section-1-inside"
         file: "public/sections/en/stages/stage-1/inside.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Stage 1 Outside"
         name: "section-1-outside"
         file: "public/sections/en/stages/stage-1/outside.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Stage 2 Inside"
         name: "section-2-inside"
         file: "public/sections/en/stages/stage-2/inside.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Stage 2 Outside"
         name: "section-2-outside"
         file: "public/sections/en/stages/stage-2/outside.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Stage 3 Inside"
         name: "section-3-inside"
         file: "public/sections/en/stages/stage-3/inside.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Stage 3 Outside"
         name: "section-3-outside"
         file: "public/sections/en/stages/stage-3/outside.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Stage 4 Inside"
         name: "section-4-inside"
         file: "public/sections/en/stages/stage-4/inside.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Stage 4 Outside"
         name: "section-4-outside"
         file: "public/sections/en/stages/stage-4/outside.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
   - label: "English Steps"
     name: "es steps"
@@ -68,25 +60,21 @@ collections:
         name: "step-title"
         file: "public/sections/en/steps/title.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Step 1"
         name: "step-1"
         file: "public/sections/en/steps/step-1.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Step 2"
         name: "step-2"
         file: "public/sections/en/steps/step-2.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Step 3"
         name: "step-3"
         file: "public/sections/en/steps/step-3.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
   - label: "Secciones Español"
     name: "es"
@@ -101,49 +89,41 @@ collections:
         name: "section-1-inside"
         file: "public/sections/es/stages/stage-1/inside.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Stage 1 Outside"
         name: "section-1-outside"
         file: "public/sections/es/stages/stage-1/outside.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Stage 2 Inside"
         name: "section-2-inside"
         file: "public/sections/es/stages/stage-2/inside.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Stage 2 Outside"
         name: "section-2-outside"
         file: "public/sections/es/stages/stage-2/outside.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Stage 3 Inside"
         name: "section-3-inside"
         file: "public/sections/es/stages/stage-3/inside.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Stage 3 Outside"
         name: "section-3-outside"
         file: "public/sections/es/stages/stage-3/outside.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Stage 4 Inside"
         name: "section-4-inside"
         file: "public/sections/es/stages/stage-4/inside.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Stage 4 Outside"
         name: "section-4-outside"
         file: "public/sections/es/stages/stage-4/outside.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
   - label: "Pasos Español"
     name: "en steps"
@@ -152,23 +132,19 @@ collections:
         name: "step-title"
         file: "public/sections/es/steps/title.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Paso 1"
         name: "step-1"
         file: "public/sections/es/steps/step-1.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Paso 2"
         name: "step-2"
         file: "public/sections/es/steps/step-2.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Paso 3"
         name: "step-3"
         file: "public/sections/es/steps/step-3.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
