@@ -16,7 +16,11 @@ const Iliana: React.FC<IlianaProps> = () => {
 
   return (
     <div>
-      <ContentSection className="md:space-x-4 md:space-y-0 space-y-4 flex-col mb-4 md:flex-row p-4">
+      <div
+        id="me"
+        className="transform -translate-y-64 lg:-translate-y-24"
+      ></div>
+      <ContentSection className="lg:space-x-4 lg:space-y-0 space-y-4 flex-col mb-4 lg:flex-row p-4">
         {!loading && (
           <Markdown
             options={{

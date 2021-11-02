@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
                 ? "Sigue mis redes sociales"
                 : "Follow me on social media"}
             </p>
-            <div className="flex space-x-3">
+            <div className="flex space-x-3 justify-end w-full lg:w-auto">
               <a
                 rel="noreferrer"
                 href="https://www.youtube.com/channel/UCWVi9lcxTO7hKQYCxPxpQlQ"

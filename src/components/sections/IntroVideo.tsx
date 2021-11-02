@@ -12,7 +12,7 @@ const IntroVideo: React.FC<IntroVideoProps> = () => {
   return (
     <ContentSection className="py-4 px-2 lg:px-4">
       <YoutubeIframe
-        className="w-full lg:h-[32rem] h-72 md:h-96 rounded-md"
+        className="w-full lg:h-[32rem] h-72 lg:h-96 rounded-md"
         videoId={videoId}
       ></YoutubeIframe>
     </ContentSection>

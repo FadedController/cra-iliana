@@ -17,7 +17,7 @@ const HeroSection: React.FC<HeroSectionProps> = () => {
 
   return (
     <div className="hero">
-      <ContentSection className="md:space-x-2 flex-col md:flex-row py-4 px-2 lg:px-4">
+      <ContentSection className="lg:space-x-2 flex-col lg:flex-row py-4 px-2 lg:px-4 relative">
         {!loading && (
           <div className="hero-markdown">
             <Markdown

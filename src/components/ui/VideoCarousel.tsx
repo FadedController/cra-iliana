@@ -66,7 +66,7 @@ const VideoCarousel: React.FC<VideoCarouselProps> = () => {
         <div className="flex flex-col items-center justify-start space-y-4 z-0 flex-1">
           <div className="flex flex-col items-center justify-center space-x-4 space-y-4 z-50">
             <div className="bg-gray-50 flex items-center justify-center rounded-xl relative">
-              <div className="loading absolute top-24 sm:top-32"></div>
+              <div className="absolute top-24 sm:top-32"></div>
               {iframes[video]}
             </div>
             <div className="flex space-x-16 w-full items-center justify-center">
@@ -80,7 +80,7 @@ const VideoCarousel: React.FC<VideoCarouselProps> = () => {
                   </span>
                 </div>
                 <p className="text-lg text-transparent bg-clip-text bg-gradient-to-br from-[#e0c571] to-[#aa8939]">
-                  Previous Video
+                  {language === "en" ? "Previous Video" : "Video Anterior"}
                 </p>
               </div>
               <div
@@ -88,7 +88,7 @@ const VideoCarousel: React.FC<VideoCarouselProps> = () => {
                 onClick={nextVideo}
               >
                 <p className="text-lg text-transparent bg-clip-text bg-gradient-to-br from-[#e0c571] to-[#aa8939]">
-                  Next Video
+                  {language === "en" ? "Next Video" : "Siguiente Video"}
                 </p>
                 <span className="material-icons-outlined text-4xl cursor-pointer text-transparent bg-clip-text bg-gradient-to-br from-[#e0c571] to-[#aa8939]">
                   arrow_forward_ios

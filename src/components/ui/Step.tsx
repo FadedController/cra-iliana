@@ -16,7 +16,9 @@ const Step: React.FC<StepProps> = ({ step, onClick }) => {
   return (
     <div
       onClick={onClick}
-      className="transform hover:scale-105 transition-transform flex-1 flex flex-col space-y-2 px-4 py-8 rounded-md bg-gradient-to-bl from-[#6ed4cd] to-[#256c7d]"
+      className={`transform hover:scale-105 transition-transform flex-1 flex flex-col space-y-2 px-4 py-8 rounded-md bg-gradient-to-bl from-[#6ed4cd] to-[#256c7d] ${
+        onClick !== undefined && "cursor-pointer"
+      }`}
     >
       {!loading && (
         <Markdown

@@ -16,8 +16,8 @@ const Mastermind: React.FC<MastermindProps> = () => {
   return (
     <div>
       {language === "es" && (
-        <ContentSection className="md:space-x-6 flex-col-reverse md:flex-row py-4 px-4 lg:px-4">
-          <div className="flex-2 videoconference min-h-[24rem] mt-4 md:mt-0"></div>
+        <ContentSection className="lg:space-x-6 flex-col-reverse lg:flex-row py-4 px-4 lg:px-4">
+          <div className="flex-2 videoconference min-h-[24rem] mt-4 lg:mt-0"></div>
           {!loading && (
             <Markdown
               options={{

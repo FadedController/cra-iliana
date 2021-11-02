@@ -18,7 +18,11 @@ const Value: React.FC<ValueProps> = () => {
 
   return (
     <div>
-      <ContentSection className="md:space-x-6 space-y-4 md:space-y-0 flex-col md:flex-row py-4 px-4 lg:px-4">
+      <div
+        id="value"
+        className="transform -translate-y-64 lg:-translate-y-24"
+      ></div>
+      <ContentSection className="lg:space-x-6 space-y-4 lg:space-y-0 flex-col lg:flex-row py-4 px-4 lg:px-4">
         {!loading && (
           <Markdown
             options={{

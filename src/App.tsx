@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { initCalendlyPopup } from "./components/hooks/initCalendlyPopup";
+import { openCalendlyPopup } from "./components/hooks/openCalendlyPopup";
 import ContentSection from "./components/layout/ContentSection";
 import Discovery from "./components/sections/Discovery";
 import Footer from "./components/sections/Footer";
@@ -10,6 +11,7 @@ import Iliana from "./components/sections/Iliana";
 import IntroVideo from "./components/sections/IntroVideo";
 import Manifest from "./components/sections/Manifest";
 import Mastermind from "./components/sections/Mastermind";
+import { Navigation } from "./components/sections/Navigation";
 import Quote from "./components/sections/Quote";
 import Stages from "./components/sections/Stages";
 import Steps from "./components/sections/Steps";
@@ -19,7 +21,11 @@ import Card from "./components/ui/Card";
 import { LanguageContext } from "./index";
 
 function App() {
-  const [language, setLanguage] = useState<"en" | "es">("en");
+  const [language, setLanguage] = useState<"en" | "es">("es");
+
+  useEffect(() => {
+    if (window.location.href.includes("calendly")) openCalendlyPopup(language);
+  });
 
   useEffect(() => {
     initCalendlyPopup(language);
@@ -28,9 +34,10 @@ function App() {
   return (
     <LanguageContext.Provider value={[language, setLanguage]}>
       <div className="app">
+        <Navigation></Navigation>
         <HeroSection></HeroSection>
         <IntroVideo></IntroVideo>
-        <ContentSection className="md:space-x-2 flex-col md:flex-row py-4 px-2 lg:px-4">
+        <ContentSection className="lg:space-x-2 flex-col lg:flex-row py-4 px-2 lg:px-4">
           <div className="flex-2 quote-bg">
             <Quote></Quote>
           </div>

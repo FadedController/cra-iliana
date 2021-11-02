@@ -15,7 +15,7 @@ const HowItWorks: React.FC<HowItWorksProps> = () => {
 
   return (
     <div>
-      <ContentSection className="md:space-x-6 md:space-y-0 space-y-4 flex-col md:flex-row px-4 lg:px-4">
+      <ContentSection className="lg:space-x-6 lg:space-y-0 space-y-4 flex-col lg:flex-row px-4 lg:px-4">
         {!loading && (
           <Markdown
             options={{

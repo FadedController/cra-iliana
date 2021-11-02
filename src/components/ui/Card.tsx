@@ -75,7 +75,7 @@ const Card: React.FC<CardProps> = ({ stage, toogleBg }) => {
           )}
           <div className="flex items-center justify-center">
             <span className="material-icons-outlined">touch_app</span>
-            <Bold>Haz clic aquí</Bold>
+            <Bold>{language === "es" ? "Haz clic aquí" : "Click here"}</Bold>
           </div>
         </div>
       </div>

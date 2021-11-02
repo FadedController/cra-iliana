@@ -13,6 +13,10 @@ const ForYou: React.FC<ForYouProps> = () => {
 
   return (
     <div className="for-you">
+      <div
+        id="about"
+        className="transform -translate-y-64 lg:-translate-y-24"
+      ></div>
       {!loading && (
         <Markdown
           options={{

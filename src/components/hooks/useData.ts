@@ -5,21 +5,37 @@ export const useData = (filename: string): [string, boolean] => {
   const [loading, setLoading] = useState<boolean>(true);
   const [markdown, setMarkdown] = useState<any>("");
 
+  const checkCache = (f: string): string | null => {
+    const cachedData = window.localStorage.getItem(f);
+    if (cachedData) {
+      return cachedData;
+    }
+    return null;
+  };
+
   const fileFetch = async () => {
     try {
-      const { data } = await axios.get(`sections/${filename}`);
-      //
+      const { data }: { data: string } = await axios.get(
+        `sections/${filename}`
+      );
+      const regexedData = data.replace(/---([^;]*)---/g, "");
       setLoading(false);
-      // @ts-ignore
-      setMarkdown(data.replace(/---([^;]*)---/g, ""));
+      setMarkdown(regexedData);
+      window.localStorage.setItem(filename, regexedData);
+      window.localStorage.setItem("lastFetched", new Date().toISOString());
     } catch {
-      // console.error(e);
       setLoading(false);
       setMarkdown("");
     }
   };
 
+  // eslint-disable-next-line
   useEffect(() => {
+    const cache = checkCache(filename);
+    if (cache) {
+      setLoading(false);
+      setMarkdown(cache);
+    }
     fileFetch();
   });
 

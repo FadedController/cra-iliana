@@ -7,6 +7,7 @@ interface logoProps {
   className?: string;
   height?: string;
   width?: string;
+  href?: string;
 }
 
 /**
@@ -16,8 +17,22 @@ interface logoProps {
  * @default className: "h-16"
  */
 
-const Logo: React.FC<logoProps> = ({ className, height, width }) => {
+const Logo: React.FC<logoProps> = ({ className, height, width, href }) => {
   const [language] = useContext(LanguageContext);
+
+  if (href) {
+    return (
+      <a href={href}>
+        <img
+          src={language === "en" ? en_logo : es_logo}
+          alt="Logo"
+          className={className ? className : "h-12 lg:h-16 cursor-pointer"}
+          height={height ? height : "3rem"}
+          width={width}
+        />
+      </a>
+    );
+  }
 
   return (
     <img

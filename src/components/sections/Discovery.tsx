@@ -20,8 +20,12 @@ const Discovery: React.FC<DiscoveryProps> = () => {
 
   return (
     <div>
-      <ContentSection className="md:space-x-6 md:space-y-0 flex-col-reverse md:flex-row px-4 lg:px-4">
-        <div className="flex-2 videoconference-2 min-h-[20rem] mt-4 md:mt-0"></div>
+      <div
+        id="benefits"
+        className="transform -translate-y-64 lg:-translate-y-24"
+      ></div>
+      <ContentSection className="lg:space-x-6 lg:space-y-0 flex-col-reverse lg:flex-row px-4 lg:px-4">
+        <div className="flex-2 videoconference-2 min-h-[20rem] mt-4 lg:mt-0"></div>
         {!loading && (
           <Markdown
             options={{

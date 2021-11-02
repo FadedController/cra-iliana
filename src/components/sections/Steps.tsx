@@ -29,7 +29,7 @@ const Steps: React.FC<StepsProps> = () => {
             {markdown}
           </Markdown>
         )}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-3">
           <Step
             onClick={() => openCalendlyPopup(language)}
             step="step-1"

@@ -5,8 +5,8 @@ import "tailwindcss/tailwind.css";
 import "./index.css";
 
 export const LanguageContext = createContext<
-  ["en" | "es" | null, null | React.Dispatch<React.SetStateAction<"en" | "es">>]
->([null, null]);
+  ["en" | "es" | null, React.Dispatch<React.SetStateAction<"en" | "es">>]
+>([null, () => null]);
 
 ReactDOM.render(
   <React.StrictMode>
