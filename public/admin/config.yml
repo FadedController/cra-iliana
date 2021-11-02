@@ -21,13 +21,13 @@ collections:
     files:
       - label: "Stage 1 Inside"
         name: "section-1-inside"
-        file: "public/admin/sections/en/stages/stage-1/inside.md"
+        file: "public/sections/en/stages/stage-1/inside.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Stage 1 Outside"
         name: "section-1-outside"
-        file: "public/admin/sections/en/stages/stage-1/outside.md"
+        file: "public/sections/en/stages/stage-1/outside.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
