@@ -1,7 +1,6 @@
 backend:
   name: git-gateway
   branch: master
-publish_mode: editorial_workflow
 media_folder: "public/sections"
 public_folder: "/sections"
 collections:
@@ -17,3 +16,18 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - label: "English Stages Section"
+    name: "en stages"
+    files:
+      - label: "Stage 1 Inside"
+        name: "section-1-inside"
+        file: "public/admin/sections/en/stages/stage-1/inside.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Stage 1 Outside"
+        name: "section-1-outside"
+        file: "public/admin/sections/en/stages/stage-1/outside.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
