@@ -1,3 +1,7 @@
+---
+title: "Sección Mastermind"
+---
+
 ## ¿Que es un Mastermind group?
 
 **Es una reunión de inteligencia colectiva!** La efectividad del modelo de trabajo grupal Mastermind, significa que es una Mente Maestra la suma de las mentes, intenciones y acciones. Un Mastermind de esta naturaleza, mantiene alta tu energía, eleva tu vibración, crea un momentum o impulso colectivo en el que nosotros atendemos optimizar y potencializar tus 5 F’s (Finanzas, Familia, Fe, Fitness, Diversión).

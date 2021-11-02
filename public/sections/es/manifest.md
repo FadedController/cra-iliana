@@ -1,3 +1,7 @@
+---
+title: "Sección Manifest"
+---
+
 ## Aprende el arte de Materializar tu Realidad
 
 **Yo Influencio mi Realidad Conscientemente y quiero que tu lo hagas también!**

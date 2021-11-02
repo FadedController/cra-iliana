@@ -1,3 +1,7 @@
+---
+title: "Sección How it works"
+---
+
 ## Funciona si o si!
 
 Las técnicas o métodos por si solos son inútiles, son los principios interiorizados y aplicados activamente los que crean un cambio profundo!

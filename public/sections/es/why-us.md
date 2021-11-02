@@ -1,3 +1,7 @@
+---
+title: "Sección why us"
+---
+
 ## ¿Por qué esto es diferente?
 
 - Esto se basa en la ciencia, es una evidencia probada, comprenderás claramente cómo funciona tu realidad y cómo podemos manipular, influenciar consciente o inconscientemente, crear resultados asombrosos o también distorsionados, es nuestra responsabilidad

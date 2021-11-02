@@ -1,3 +1,7 @@
+---
+title: "Seccion Discovery"
+---
+
 ## ¿Qué obtendrás en la Consulta Gratuita?
 
 - Evaluación del curso de tu vida actual y qué se interpone en el camino de tus metas

@@ -1,3 +1,7 @@
+---
+title: "Sección Value"
+---
+
 ## ¿Cuál es el Valor de Poder Influenciar tu Realidad?
 
 - Vivir se convertirá en tu “Arte” desde el momento en que inviertas tu atención, tiempo y dinero en un dinámico acompañamiento, instrucción y mentoría personalizada para convertirte en el Maestro de tu Realidad

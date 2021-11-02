@@ -1,3 +1,7 @@
+---
+title: "Sección Iliana"
+---
+
 ## Hola, soy Iliana y quiero ser tu mentor de Manifestación
 
 ¡Qué alegría que estes aquí!, empecé el viaje de exploración personal hace 20 años, buscando algo que me ayudara a comprender las experiencias tempranas de mi vida y fui dándome cuenta de que soy una apasionada y buscadora natural del potencial humano, por lo que he recorrido cantidad de entrenamientos y certificaciones que me han contribuido personal y profesionalmente.

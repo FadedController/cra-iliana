@@ -1,3 +1,7 @@
+---
+title: "Sección For You"
+---
+
 ## Este programa es para ti si ...
 
 - Has intentado técnicas holísticas, cursos de crecimiento personal, libros de éxito, ley de atracción, meditación, afirmaciones, visualizaciones, terapia, cuántica y NO tienes suficientes resultados o funcionan solo temporalmente

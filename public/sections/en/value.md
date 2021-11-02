@@ -1,3 +1,7 @@
+---
+title: "Value section"
+---
+
 ## For VISIONARY, ATYPICAL and CONSCIOUS ENTREPRENEURS
 
 - **Our purpose is to see you meet your personal and professional goals through understanding and internalizing the most refined cutting-edge Reality Creation principles, through dynamic group-guided interactions, support material, cases discussion and teamwork exchanges**
