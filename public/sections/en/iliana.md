@@ -1,7 +1,6 @@
 ---
-title: "Iliana Section"
+title: Iliana Section
 ---
-
 ## Hola, I am IIiana:
 
 What a joy that you are here! I’d like to share with you my Why, I want individuals to experience the how to Influence consciously their reality to stop feeling trapped in some aspect of life as I was. My other core driver is to love and feel loved!
@@ -15,4 +14,4 @@ The apparently dark episode was a hidden gift that led me to the Quantum Manifes
 
 My daily purpose is to help more clients, like you, to become Conscious Creators of the Reality that brings them security and trust about their future!
 
-> I am deeply fulfilled as a mom of two amazing boys and my heart is filled with love from within and from people around me, currently I live in Canada, Vancouver Island and work online internationally facilitating Master your Reality Mastermind groups.
+> I am deeply fulfilled as a mom of two children that I love, my heart is full. I am Mexican, living at Canada, Vancouver Island, I change locations while working online internationally, mentoring groups of entrepreneurs to become the Masters or their Reality.
