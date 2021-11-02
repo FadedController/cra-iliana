@@ -62,7 +62,7 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
   - label: "English Steps"
-    name: "en steps"
+    name: "es steps"
     files:
       - label: "Title"
         name: "step-title"
