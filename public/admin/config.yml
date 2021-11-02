@@ -61,7 +61,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
-  - label: "English Steps"
+  - label: "Español Pasos"
     name: "es steps"
     files:
       - label: "Title"
@@ -172,3 +172,18 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+  - label: "Config files"
+    name: "config-files"
+    files:
+      - label: "Calendly"
+        name: "calendly-config"
+        file: "src/data/calendly.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "map" }
+      - label: "Youtube Carousel"
+        name: "youtube-config"
+        file: "src/data/youtube.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "map" }
