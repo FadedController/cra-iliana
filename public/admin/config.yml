@@ -11,7 +11,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - label: "English Stages"
-    name: "en stages"
+    name: "en-stages"
     files:
       - label: "Stage 1 Inside"
         name: "section-1-inside"
@@ -54,7 +54,7 @@ collections:
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
   - label: "English Steps"
-    name: "es steps"
+    name: "en-steps"
     files:
       - label: "Title"
         name: "step-title"
@@ -83,50 +83,50 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - label: "Etapas Español"
-    name: "es stages"
+    name: "es-stages"
     files:
-      - label: "Stage 1 Inside"
+      - label: "Etapa 1 Inside"
         name: "section-1-inside"
         file: "public/sections/es/stages/stage-1/inside.md"
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Stage 1 Outside"
+      - label: "Etapa 1 Outside"
         name: "section-1-outside"
         file: "public/sections/es/stages/stage-1/outside.md"
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Stage 2 Inside"
+      - label: "Etapa 2 Inside"
         name: "section-2-inside"
         file: "public/sections/es/stages/stage-2/inside.md"
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Stage 2 Outside"
+      - label: "Etapa 2 Outside"
         name: "section-2-outside"
         file: "public/sections/es/stages/stage-2/outside.md"
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Stage 3 Inside"
+      - label: "Etapa 3 Inside"
         name: "section-3-inside"
         file: "public/sections/es/stages/stage-3/inside.md"
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Stage 3 Outside"
+      - label: "Etapa 3 Outside"
         name: "section-3-outside"
         file: "public/sections/es/stages/stage-3/outside.md"
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Stage 4 Inside"
+      - label: "Etapa 4 Inside"
         name: "section-4-inside"
         file: "public/sections/es/stages/stage-4/inside.md"
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Stage 4 Outside"
+      - label: "Etapa 4 Outside"
         name: "section-4-outside"
         file: "public/sections/es/stages/stage-4/outside.md"
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
   - label: "Pasos Español"
-    name: "en steps"
+    name: "es-steps"
     files:
       - label: "Titulo"
         name: "step-title"
