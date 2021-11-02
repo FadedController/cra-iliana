@@ -4,8 +4,8 @@ backend:
 media_folder: "public/sections"
 public_folder: "/sections"
 collections:
-  - name: "en"
-    label: "English Sections"
+  - label: "English Sections"
+    name: "en"
     folder: "public/sections/en"
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -61,7 +61,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
-  - label: "Español Pasos"
+  - label: "English Steps"
     name: "es steps"
     files:
       - label: "Title"
@@ -88,13 +88,13 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
-  - name: "es"
-    label: "Secciones Español"
+  - label: "Secciones Español"
+    name: "es"
     folder: "public/sections/es"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - label: "Español Stages"
+  - label: "Etapas Español"
     name: "es stages"
     files:
       - label: "Stage 1 Inside"
@@ -145,7 +145,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
-  - label: "English Steps"
+  - label: "Pasos Español"
     name: "en steps"
     files:
       - label: "Titulo"
