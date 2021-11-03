@@ -1,7 +1,7 @@
 ---
 title: Seccion Hero
 ---
-# Domina el arte de Manifestar
+# Domina el arte del Desarrollo
 
 ### Esto no es Ley de Atracción o entretenimiento de superación
 
