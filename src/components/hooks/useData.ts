@@ -22,7 +22,6 @@ export const useData = (filename: string): [string, boolean] => {
       setLoading(false);
       setMarkdown(regexedData);
       window.localStorage.setItem(filename, regexedData);
-      window.localStorage.setItem("lastFetched", new Date().toISOString());
     } catch {
       setLoading(false);
       setMarkdown("");

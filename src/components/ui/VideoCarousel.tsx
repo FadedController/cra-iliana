@@ -17,6 +17,7 @@ const VideoCarousel: React.FC<VideoCarouselProps> = () => {
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
       className="rounded-xl video"
+      loading="lazy"
     ></iframe>
   ));
 

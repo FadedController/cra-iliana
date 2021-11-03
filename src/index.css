@@ -161,6 +161,15 @@ html {
   overflow: hidden;
 }
 
+/* Marie.tsx */
+.marie-img {
+  background-image: url(./assets/img/marie.png);
+  background-size: cover;
+  background-position: top;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
 /* Loading */
 
 .loading,

@@ -10,6 +10,7 @@ import HowItWorks from "./components/sections/HowItWorks";
 import Iliana from "./components/sections/Iliana";
 import IntroVideo from "./components/sections/IntroVideo";
 import Manifest from "./components/sections/Manifest";
+import Marie from "./components/sections/Marie";
 import Mastermind from "./components/sections/Mastermind";
 import { Navigation } from "./components/sections/Navigation";
 import Quote from "./components/sections/Quote";
@@ -46,7 +47,7 @@ function App() {
             <WhyUs></WhyUs>
           </div>
         </ContentSection>
-        <ContentSection className="flex-col space-y-4">
+        <ContentSection className="flex-col mb-6 space-y-4">
           <Manifest></Manifest>
           <Stages>
             <Card stage="stage-1" toogleBg></Card>
@@ -60,6 +61,7 @@ function App() {
           <Steps></Steps>
           <HowItWorks></HowItWorks>
           <Iliana></Iliana>
+          <Marie></Marie>
         </ContentSection>
         <Footer></Footer>
       </div>
