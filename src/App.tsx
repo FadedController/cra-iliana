@@ -30,6 +30,9 @@ function App() {
 
   useEffect(() => {
     initCalendlyPopup(language);
+    if (language === "en") document.title = "Iliana Hegewisch - Manifest Coach";
+    if (language === "es")
+      document.title = "Iliana Hegewisch - Coach de Manifestación";
   }, [language]);
 
   return (
