@@ -42,7 +42,8 @@ const VideoCarousel: React.FC<VideoCarouselProps> = () => {
   };
 
   return (
-    <div>
+    <div className="relative">
+      <div className="absolute -top-56 md:-top-32" id="benefits"></div>
       <ContentSection className="flex-col items-center justify-center h-full space-y-6">
         {!loading && (
           <Markdown
