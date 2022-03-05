@@ -17,7 +17,7 @@ const VideoCarousel: React.FC<VideoCarouselProps> = () => {
     if (!loading && markdown) {
       let iframes = markdown
         .split("\n")
-        .filter((line) => line.startsWith("-"))
+        .filter((line) => line.startsWith("*"))
         .map((str) => str.substring(str.length - 11))
         .map((str) => `https://www.youtube.com/embed/${str}`)
         .map((str) => (
