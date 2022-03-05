@@ -9,4 +9,3 @@ title: Videos Youtube
 * https://www.youtube.com/watch?v=1I8BweqwEm4
 * https://www.youtube.com/watch?v=85cZrdGbmAg
 * https://www.youtube.com/watch?v=LJtmVhbWwBY
-* https://www.youtube.com/watch?v=pDQGqipmuFA
