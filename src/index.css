@@ -46,7 +46,7 @@ html {
 
 /* Hero.tsx */
 .hero {
-  background-image: url(./assets/img/hero-bg.jpg);
+  background-image: url(./assets/img/background.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 0.5rem;
@@ -54,7 +54,7 @@ html {
 }
 
 .hero-pic {
-  background-image: url(./assets/img/hero.jpg);
+  background-image: url(./assets/img/image-1.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 0.25rem;
@@ -103,18 +103,18 @@ html {
 }
 
 .overlay-1 {
-  background-image: url(./assets/img/overlay-1.jpeg);
+  background-image: url(./assets/img/overlay-1.jpg);
   background-size: cover;
 }
 
 .overlay-2 {
-  background-image: url(./assets/img/overlay-2.jpeg);
+  background-image: url(./assets/img/overlay-2.jpg);
   background-size: cover;
 }
 
 /* Mastermind.tsx */
 .videoconference {
-  background-image: url(./assets/img/videoconference.jpg);
+  background-image: url(./assets/img/image-2.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0.5rem;
@@ -123,7 +123,7 @@ html {
 
 /* Value.tsx */
 .for-you-img {
-  background-image: url(./assets/img/for-you.png);
+  background-image: url(./assets/img/image-3.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0.5rem;
@@ -132,7 +132,7 @@ html {
 
 /* Discovery.tsx */
 .videoconference-2 {
-  background-image: url(./assets/img/videoconference.png);
+  background-image: url(./assets/img/image-4.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0.5rem;
@@ -154,7 +154,7 @@ html {
 
 /* Iliana.tsx */
 .iliana-img {
-  background-image: url(./assets/img/iliana.jpeg);
+  background-image: url(./assets/img/image-5.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 0.5rem;
@@ -163,7 +163,7 @@ html {
 
 /* Marie.tsx */
 .marie-img {
-  background-image: url(./assets/img/marie.png);
+  background-image: url(./assets/img/image-6.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0.5rem;
